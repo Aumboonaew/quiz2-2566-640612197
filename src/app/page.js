@@ -15,13 +15,13 @@ export default function HomePage() {
         <div className="vstack gap-3">
           <div className="d-flex align-items-center gap-3">
             <img
-              src="/profileImages/handsome.jpg"
+              src="/profileImages/orca-jumping-animal-wallpaper-preview.jpg"
               width="48"
               height="48"
               className="rounded-circle"
               style={{ objectFit: "cover" }}
             />
-            <span className="fw-semibold fs-5">Chayanin Suatap 650610560</span>
+            <span className="fw-semibold fs-5">Aumboon Naewsuk 640612197</span>
           </div>
 
           <span>Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207</span>
@@ -72,6 +72,24 @@ export default function HomePage() {
             <span className="fw-semibold">หมาน้อย</span>
             <br />
             <span>จริงค้าบบบบบบบบ</span>
+            <div className="d-flex align-items-center gap-1"></div>
+          </div>
+        </div>
+        <div className="d-flex gap-2 my-2 ps-5">
+          <img
+            src="/profileImages/popcat.png"
+            width="48"
+            height="48"
+            className="rounded-circle"
+            style={{ objectFit: "cover" }}
+          />
+          <div
+            className="rounded rounded-3 p-2"
+            style={{ backgroundColor: "#E5E7EB" }}
+          >
+            <span className="fw-semibold">Cat Meme</span>
+            <br />
+            <span>จริงค้าบบบบบบบบ</span>
             <div className="d-flex align-items-center gap-1">
               <img src="/like.svg" width={20}></img>
               <span className="text-muted">2 คน</span>
@@ -79,7 +97,45 @@ export default function HomePage() {
           </div>
         </div>
 
+        <div>
+          <div className="d-flex gap-2 my-2 ps-5">
+            <img
+              src="/profileImages/puppy.jpg"
+              width="48"
+              height="48"
+              className="rounded-circle"
+              style={{ objectFit: "cover" }}
+            />
+            <div
+              className="rounded rounded-3 p-2"
+              style={{ backgroundColor: "#E5E7EB" }}
+            >
+              <span className="fw-semibold">หมาน้อย</span>
+              <br />
+              <span>จริงค้าบบบบบบบบ</span>
+              <div className="d-flex align-items-center gap-1"></div>
+            </div>
+          </div>
+        </div>
         {/* map-loop render Comment component here */}
+        <div className="d-flex gap-2 my-2">
+          <img
+            src="/profileImages/charliebrown.jpg"
+            width="48"
+            height="48"
+            className="rounded-circle"
+            style={{ objectFit: "cover" }}
+          />
+          <div
+            className="rounded rounded-3 p-2"
+            style={{ backgroundColor: "#E5E7EB" }}
+          >
+            <span className="fw-semibold">Charlie Brown</span>
+            <br />
+            <span>บ้าไปแล้ว</span>
+            <div className="d-flex align-items-center gap-1"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

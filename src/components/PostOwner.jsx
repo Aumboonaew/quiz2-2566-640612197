@@ -1,3 +1,11 @@
-export const PostOwner = ({}) => {
-  return <div>Your code here...</div>;
+export const PostOwner = () => {
+  const { userImagePath, username } = Profile(["mypic", "name"]);
+  const { Stany } = Staus(["text"]);
+
+  return (
+    <div>
+      {userImagePath?.mypic} has name: {username?.name}
+      {Stany?.text}
+    </div>
+  );
 };
